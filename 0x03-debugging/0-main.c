@@ -2,7 +2,7 @@ cat > 0-main.c
 #include "main.h"
 
 /**
-* main - tests functions that prints if integer is positive or negative
+* main - tests function that prints if integer is positive or negative
 * Return: 0
 */
 
