@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * more_numbers - this function that prints 10 times the numbers from 0 to 14
+ * more_numbers - check the code for alx School students.
  * Return: void .
  */
 void more_numbers(void)
