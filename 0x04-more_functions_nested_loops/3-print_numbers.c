@@ -1,15 +1,16 @@
 #include "main.h"
 
 /**
- * print_numbers - check the code for holberton School students.
- * Return: void .
+ * print_numbers - This function prints out numbers 0 to 10
+ * and ends with a new line
  */
 void print_numbers(void)
 {
-int i;
-for (i = 0; i < 10; i++)
-{
-_putchar (i + '0');
-}
-_putchar('\n');
+	int i;
+
+	for (i = 48; i <= 57; i++)
+	{
+		_putchar(i);
+	}
+	_putchar('\n');
 }
