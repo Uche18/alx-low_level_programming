@@ -1,16 +1,17 @@
-#include "main.h"
-#include <string.h>
+#include <stdio.h>
+
+void _puts(char *);
 
 /**
- * _puts - function that prints a string followed by a new line
- * @str: variable.
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always 0.
  */
-void _puts(char *str)
+int main(void)
 {
-int i;
-for (i = 0; str[i] != '\0'; i++)
-{
-_putchar(str[i]);
-}
-_putchar('\n');
+	char *str;
+
+	str = "Holberton!";
+	_puts(str);
+	return (0);
 }
